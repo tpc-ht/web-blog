@@ -2,6 +2,7 @@ import { defineConfig } from 'dumi';
 
 
 export default defineConfig({
+  outputPath: 'public',
   themeConfig: {
     name: 'TcBlog',
     footer: 'TC前端知识库',
