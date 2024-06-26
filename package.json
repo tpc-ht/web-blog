@@ -4,8 +4,7 @@
   "description": "A static site based on dumi",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && father build",
-    "build-doc": "dumi build",
+    "build": "dumi build",
     "dev": "dumi dev",
     "prepare": "husky install && dumi setup",
     "preview": "dumi preview",
