@@ -1,0 +1,38 @@
+{
+  "name": "tpc-npm-test",
+  "version": "0.0.53",
+  "description": "A static site based on dumi",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && father build",
+    "build-doc": "dumi build",
+    "dev": "dumi dev",
+    "prepare": "husky install && dumi setup",
+    "preview": "dumi preview",
+    "start": "npm run dev"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "dumi": "2.3.8",
+    "dumi-theme-antd-style": "^0.31.0",
+    "father": "4.1.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "authors": [
+    "2212234496@qq.com"
+  ]
+}
