@@ -16,4 +16,5 @@ nav:
 
 ## 其他
 
-3. [rimraf 的安装与使用](../tool/rimraf)
+1. [在线部署平台](../tool/hosting-platform)
+2. [rimraf 的安装与使用](../tool/rimraf)
